@@ -24,11 +24,18 @@ body {
   gap: 2rem;
   padding: 0 1rem;
   height: 5rem;
+  transition-duration: 0.4s;
 }
 
 .site-title {
   font-size: 2rem;
   font-family: roboto;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.site-titile:hover {
+  color: #8FC1E3;
+  transition-duration: 0.4s;
 }
 
 .nav ul {
@@ -38,6 +45,7 @@ body {
   display: flex;
   gap: 1rem;
   font-family: roboto;
+  
 }
 
 .nav a {
@@ -49,13 +57,16 @@ body {
   padding: .25rem;
 }
 
+.nav li:hover {
+  color: #8FC1E3;
+  transition-duration: 0.4s;
+}
+
 .nav li.active {
   background-color: #555;
 }
 
-.nav li:hover {
-  color: #8FC1E3
-}
+
 
 .home {
   display: flex;
@@ -67,6 +78,7 @@ body {
   font-size: 1rem;
   font-family: roboto;
   text-align: center;
+  margin-bottom: 2rem;
 }
 .home-title {
   font-size: 2rem;
@@ -80,7 +92,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 5%;
+  padding-left: 5%;
 }
 
 button {
@@ -92,11 +104,15 @@ button {
   font-size: 16px;
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  width: 50%;
+  min-width: 50%;
   text-align: center;
 }
 
 button:hover {
   background-color: #F7F9FB;
   color: #31708E;
+}
+
+.icon {
+  color:#8FC1E3;
 }
