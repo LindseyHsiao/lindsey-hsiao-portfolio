@@ -3,16 +3,16 @@ import {Link} from 'react-router-dom'
 export default function Navigation() {
     return (
         <nav className="nav">
-            <Link to="/lindsey-hsiao-portfolio" className="site-title">Lindsey Hsiao</Link>
+            <Link to="/lindsey-hsiao-portfolio/" className="site-title">Lindsey Hsiao</Link>
             <ul>
                 <li>
-                    <Link to="/Projects">Projects</Link>
+                    <Link to="/lindsey-hsiao-portfolio/Projects">Projects</Link>
                     </li>
                     <li>
-                    <Link to="/Resume">Resume</Link>
+                    <Link to="/lindsey-hsiao-portfolio/Resume">Resume</Link>
                     </li>
                     <li>
-                    <Link to="/Contact">Contact</Link>
+                    <Link to="/lindsey-hsiao-portfolio/Contact">Contact</Link>
                 </li>
             </ul>
         </nav>
