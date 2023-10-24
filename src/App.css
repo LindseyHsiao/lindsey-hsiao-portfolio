@@ -14,9 +14,6 @@ body {
   margin: 0;
 }
 
-
-
-
 .nav {
   background-color: #31708E;
   color: #F7F9FB;
@@ -64,8 +61,41 @@ body {
   background-color: #31708E;
 }
 
+.home-text{
+  color:#8FC1E3;
+  font-size: 1rem;
+  font-family: roboto;
+  text-align: center;
+}
+.home-title {
+  font-size: 2rem;
+  font-family: roboto;
+  color: #F7F9FB;
+  text-align: center;
+}
+
 .home-div-left {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding: 5%;
+}
+
+button {
+  background-color: #687864;
+  color: #F7F9FB;
+  padding: 10px 24px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 50%;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #F7F9FB;
+  color: #31708E;
 }

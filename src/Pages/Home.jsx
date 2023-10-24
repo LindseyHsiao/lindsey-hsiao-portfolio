@@ -4,9 +4,11 @@ export default function Home() {
     return (
         <section className="home">
             <div className="home-div-left">
-                <h1 className="home-text">
-                    Hi, my name is Lindsey and Im excited to put my skills as a full stack develper to work for you!
-                </h1>
+                <h1 className='home-title'>Full Stack Web Developer</h1>
+                <h2 className="home-text">
+                    With experience in React, Mongo DB, Express and Node.js as a full stack develper, I look forward to  
+                    
+                </h2>
                 
                 <button className='home-button'>Lets Connect!</button>
             </div>
