@@ -93,6 +93,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding-left: 5%;
+  margin-top: -100px;
 }
 
 button {
@@ -113,6 +114,31 @@ button:hover {
   color: #31708E;
 }
 
-.icon {
-  color:#8FC1E3;
+.contact-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+    margin-top: 5rem;
+
+}
+
+.contact-text {
+  margin-top: 10rem;
+  color: #8FC1E3;
+  font-size: xx-large;
+}
+.icon:hover {
+  color: #31708E;
+
+  
 }

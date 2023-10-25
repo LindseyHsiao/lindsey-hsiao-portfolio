@@ -3,23 +3,29 @@ import gitHub from '../assets/icons/githubIcon.png'
 import email from '../assets/icons/emailIcon.png'
 
 
-export default function Contact(){
-    return(
-        <>
-        <a className='icon' href='https://github.com/LindseyHsiao'>
-            <img src={email} alt="linkedIn" className='icon' />
-        </a>
+export default function Contact() {
+    return (
+        <div className='contact-page'>
+            <div className='contact-text'>
+                <h1>Lets connect!</h1>
+            </div>
+            <div className='contact-icons'>
+                <a className='icon' href='mailto:lindsey350@aol.com'>
+                    <img src={email} alt="email" className='icon' />
+                </a>
 
-        <a href='https://github.com/LindseyHsiao'>
-            <img src={linkedIn} alt="linkedIn" className='color: white' />
-        </a>
+                <a className='icon' href='https://www.linkedin.com/in/lindsey-hsiao/'>
+                    <img src={linkedIn} alt="linkedIn"  />
+                </a>
 
-        <a href='https://github.com/LindseyHsiao'>
-            <img src={gitHub} alt="linkedIn" className='color: white' />
-        </a>
+                <a className='icon' href='https://github.com/LindseyHsiao'>
+                    <img src={gitHub} alt="github"  />
+                </a>
+            </div>
+        </div>
 
-        
-</>
+
+
 
     )
 }
