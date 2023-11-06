@@ -1,6 +1,12 @@
-import linkedIn from '../assets/icons/linkedinIcon.png'
-import gitHub from '../assets/icons/githubIcon.png'
-import email from '../assets/icons/emailIcon.png'
+// import linkedIn from '../assets/icons/linkedinIcon.png'
+// import gitHub from '../assets/icons/githubIcon.png'
+// import email from '../assets/icons/emailIcon.png'
+
+import {
+    FaLinkedin,
+    FaGithub,
+    FaEnvelopeOpen
+} from 'react-icons/fa'
 
 
 export default function Contact() {
@@ -11,15 +17,15 @@ export default function Contact() {
             </div>
             <div className='contact-icons'>
                 <a className='icon' href='mailto:lindsey350@aol.com'>
-                    <img src={email} alt="email" className='icon' />
+                    <FaEnvelopeOpen size={70}/>
                 </a>
 
                 <a className='icon' href='https://www.linkedin.com/in/lindsey-hsiao/'>
-                    <img src={linkedIn} alt="linkedIn"  />
+                <FaLinkedin  size={70}/>
                 </a>
 
                 <a className='icon' href='https://github.com/LindseyHsiao'>
-                    <img src={gitHub} alt="github"  />
+                <FaGithub size={70} />
                 </a>
             </div>
         </div>
