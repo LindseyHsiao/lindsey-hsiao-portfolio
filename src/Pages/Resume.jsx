@@ -1,4 +1,3 @@
-import resume from '../assets/images/LindseyHsiaoResume.pdf'
 
 
 export default function Resume() {

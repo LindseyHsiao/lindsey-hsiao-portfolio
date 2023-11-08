@@ -21,13 +21,8 @@ const projects = [
         img: odaly,
         description: 'Fullstack MERN blog',
         link: 'https://shielded-thicket-31431-759032547906.herokuapp.com/'
-    },
-    {
-        title: 'One Spark',
-        img: onespark,
-        description: 'description',
-        link: 'https://heartlandyogadevesh.vercel.app/'
-    },
+    }
+    
 ]
 
 export default function Projects() {
