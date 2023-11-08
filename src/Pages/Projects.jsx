@@ -14,7 +14,7 @@ const projects = [
         title: 'One Spark',
         img: onespark,
         description: 'Fullstack MERN flip card game application',
-        link: 'lhttps://one-spark-03f39da04cc1.herokuapp.com/'
+        link: 'https://one-spark-03f39da04cc1.herokuapp.com/'
     },
     {
         title: 'OT Wealthness',

@@ -151,6 +151,23 @@ button:hover {
   text-align: center;
 }
 
+.resume-text {
+  margin-top: 10rem;
+  color: #8FC1E3;
+  font-size: xx-large;
+  justify-content: center;
+  text-align: center;
+}
+
+.resume-text:hover {
+  color: #F7F9FB;
+  transition-duration: 0.4s;
+}
+
+ a {
+  text-decoration: none;
+}
+
 .icon {
   color: #687864
 }
@@ -173,6 +190,16 @@ button:hover {
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+  font-family: 'Roboto';
+}
+.container p {
+  color: #F7F9FB;
+}
+.container h4 {
+  color: #F7F9FB;
+  font-size: large;
+  font-weight: bold;
+
 }
 
 .projects {
