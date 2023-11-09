@@ -1,1 +1,56 @@
 
+
+
+@media only screen and (max-width: 600px) {
+  
+.site-title {
+    font-size: 1.25rem;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-div-left {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.home-div-right {
+    text-align: center;
+    margin-top: 16%;
+}
+
+.home-div-right img {
+    width: 80%;
+}
+
+.projects {
+    flex-direction: column;
+
+   
+}
+.project-text {
+    margin-top: 0;
+
+}
+.project-text h1 {
+    font-size: medium;
+    color: white;
+}
+.card{
+    padding: 10px;
+}
+.contact-text {
+    margin-top: 0;
+}
+.contact-icons {
+    flex-direction: row;
+}
+
+
+
+
+  }
+
