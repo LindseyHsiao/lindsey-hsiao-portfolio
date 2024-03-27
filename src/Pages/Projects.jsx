@@ -2,12 +2,13 @@ import runBuddy from '../assets/images/runbuddy.png'
 import onespark from '../assets/images/onespark.png'
 import janJennings from '../assets/images/janJenningsScreenShot.png'
 import odaly from '../assets/images/odalyScreenShot.png'
+import SRFOrlando from '../assets/images/SRFOrlando.png'
 
 const projects = [
     {
         title: 'Jan Jennings- Orlando Harpist',
         img: janJennings,
-        description: "front end site for business development, HTML, CSS, JavaScript, React, Node.js",
+        description: "React site for business development, HTML, CSS, JavaScript, React, Node.js",
         link: 'https://janjennings.vercel.app/'
     },
     {
@@ -21,7 +22,14 @@ const projects = [
         img: odaly,
         description: 'Fullstack MERN blog',
         link: 'https://shielded-thicket-31431-759032547906.herokuapp.com/'
+    },
+    {
+        title: 'SRF Orlando Mediatation Group',
+        img: SRFOrlando,
+        description: 'React Application',
+        link: 'https://lindseyhsiao.github.io/srforlandotest/'
     }
+
     
 ]
 
@@ -50,7 +58,7 @@ export default function Projects() {
             <div className='card' >
                 {projects.map((item, i) => (
                     <div className='project-cards'>
-                        <a href={item.link} >
+                        <a href={item.link} target="_blank">
                             <img src={item.img} alt="item image" style={{ width: '100%', verticalAlign: 'bottom' }} />
                             <div className='container'>
                                 <h4><b>{item.title}</b></h4>

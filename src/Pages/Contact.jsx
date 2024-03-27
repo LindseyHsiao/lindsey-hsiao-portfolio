@@ -2,6 +2,7 @@
 // import gitHub from '../assets/icons/githubIcon.png'
 // import email from '../assets/icons/emailIcon.png'
 
+
 import {
     FaLinkedin,
     FaGithub,
@@ -20,11 +21,11 @@ export default function Contact() {
                     <FaEnvelopeOpen size={70}/>
                 </a>
 
-                <a className='icon' href='https://www.linkedin.com/in/lindsey-hsiao/'>
+                <a className='icon' href='https://www.linkedin.com/in/lindsey-hsiao/' target="_blank">
                 <FaLinkedin  size={70}/>
                 </a>
 
-                <a className='icon' href='https://github.com/LindseyHsiao'>
+                <a className='icon' href='https://github.com/LindseyHsiao' target="_blank">
                 <FaGithub size={70} />
                 </a>
             </div>
